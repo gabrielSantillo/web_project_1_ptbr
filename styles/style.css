@@ -232,7 +232,7 @@ body{
 
 .kaufman {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;

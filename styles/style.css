@@ -260,3 +260,33 @@ body{
   margin-bottom: 60px;
   width: 180px;
 }
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer__columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin: auto;
+}
+
+.footer__columns-content-about-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__column-link {
+  color: #fff;
+  text-decoration: none;
+  
+}

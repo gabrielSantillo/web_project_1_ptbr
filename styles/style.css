@@ -19,19 +19,15 @@ body{
   min-height: 600px;
   max-height: 756px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   background-color: #f2f2f2;
+  position: relative;
   /* parameters for the header section */
-}
-
-.header__left-block {
-  height: 100%;
-  width: 100%;
-  display: flex;
 }
 
 .logo_place_header {
   position: absolute;
+  top: 0;
   z-index: 10;
   width: 154px;
   height: 31px;
@@ -40,15 +36,15 @@ body{
 }
 
 .header__title {
-  align-self: center;
   width: 730px;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  justify-self: center;
 }
 
-.header__subtitle-link {
+.header__subtitle {
   position: absolute;
   width: 388px;
   margin-left: 64px;
@@ -138,7 +134,7 @@ body{
   width: 100%;
 }
 
-.digits__title, .kaufman__title {
+.section__title, .kaufman__title {
   width: 60%;
   text-align: center;
   line-height: 1.15;
@@ -146,7 +142,7 @@ body{
   font-weight: bold;
 }
 
-.digits__subtitle, .kaufman__subtitle {
+.section__subtitle, .kaufman__subtitle {
   width: 60%;
   text-align: center;
   line-height: 34px;
@@ -154,7 +150,7 @@ body{
   font-weight: normal;
 }
 
-.digits__table, .kaufman__table {
+.table, .kaufman__table {
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -164,20 +160,20 @@ body{
   column-gap: 30px;
 }
 
-.digits__table-cell {
+.table__cell {
   width: 250px;
   list-style: none;
   top: 0;
   margin-bottom: 60px;
 }
 
-.digits__table-heading, .kaufman__table-heading {
+.table__heading, .kaufman__table-heading {
   font-weight: bold;
   line-height: 1.15;
   font-size: 24px;
 }
 
-.digits__table-text, .kaufman__table-text {
+.table__text, .kaufman__table-text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -239,13 +235,10 @@ body{
   width: 100%;
   position: relative;
   overflow: hidden;
-}
-
-.kaufman-theme-dark {
   background-color: #1f1f1f;
 }
 
-.kaufman__title-theme-dark, .kaufman__subtitle-theme-dark, .kaufman__table-theme-dark {
+.section__title_theme_dark, .section__subtitle_theme_dark, .table_theme_dark {
   color: #fff;
   z-index: 10;
 }
@@ -256,7 +249,7 @@ body{
   right: -124px;
 }
 
-.kaufman__table-cell {
+.table__cell {
   list-style: none;
   top: 0;
   margin-bottom: 60px;
@@ -321,11 +314,7 @@ body{
   font-weight: normal;
 }
 
-.footer__column-link {
-  display: flex;
-}
-
-.footer__column-link a{
+.footer__column-link{
   text-decoration: none;
   color: #fff;
 }

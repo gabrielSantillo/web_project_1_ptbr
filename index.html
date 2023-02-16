@@ -5,43 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aprendendo a aprender</title>
     <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/normalize.css" />
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <div class="header__left-block">
-          <img
-            class="logo logo_place_header"
-            src="/images/logo_place_header.png"
-            alt="Logo Practicum image"
-          />
-          <h1 class="header__title">Aprendendo a aprender</h1>
-          <div class="header__subtitle-link">
-            <p class="header__subtitle">
-              As técnicas de aprendizado mais eficazes que você pode aplicar ao
-              seu cotidiano.
-            </p>
-            <a href="#" class="header__link">Saiba mais ⟶</a>
-          </div>
-        </div>
+        <img
+          class="logo logo_place_header"
+          src="/images/logo_place_header.png"
+          alt="Logo Practicum image"
+        />
+        <h1 class="header__title">Aprendendo a aprender</h1>
 
-        <div>
-          <img
-            src="/images/header-image.png"
-            alt="Ponderador épico no alto de uma montanha deliberando
+        <p class="header__subtitle">
+          As técnicas de aprendizado mais eficazes que você pode aplicar ao seu
+          cotidiano.
+          <br />
+          <a href="#" class="header__link">Saiba mais ⟶</a>
+        </p>
+
+        <img
+          src="/images/header-image.png"
+          alt="Ponderador épico no alto de uma montanha deliberando
           sobre os pontos mais refinados do sistema educacional moderno,
           enquanto também se questiona sobre de onde aquele quadrado
           azul gigante veio"
-            class="header__main-illustration"
-          />
-          <div class="header__square"></div>
-        </div>
+          class="header__main-illustration"
+        />
+        <div class="header__square"></div>
       </header>
 
       <main class="content">
         <section class="description">
-          <div class="two-columns">
+          <article class="two-columns">
             <h2 class="two-columns__brief">O maior problema da educação</h2>
 
             <div class="two-columns__main-text">
@@ -72,64 +68,64 @@
                 aprendizado eficaz.
               </p>
             </div>
-          </div>
+          </article>
         </section>
 
         <section class="digits">
-          <h2 class="digits__title">Fatos e Números</h2>
+          <h2 class="section__title">Fatos e Números</h2>
 
-          <p class="digits__subtitle">Sobre o Cérebro e o aprendizado</p>
+          <p class="section__subtitle">Sobre o Cérebro e o aprendizado</p>
 
-          <ul class="digits__table">
-            <li class="digits__table-cell">
-              <p class="digits__table-heading">86 bilhões</p>
-              <p class="digits__table-text">
+          <ul class="table">
+            <li class="table__cell">
+              <h4 class="table__heading">86 bilhões</h4>
+              <p class="table__text">
                 O número de neurônios no cérebro humano
               </p>
             </li>
-            <li class="digits__table-cell">
-              <p class="digits__table-heading">73%</p>
-              <p class="digits__table-text">
+            <li class="table__cell">
+              <h4 class="table__heading">73%</h4>
+              <p class="table__text">
                 A porcentagem de adultos nos EUA que se consideram aprendizes
-                para a vida toda - Centro de pesquisa Pew
+                para a vida toda __ Centro de pesquisa Pew
               </p>
             </li>
-            <li class="digits__table-cell">
-              <p class="digits__table-heading">1000 terabytes</p>
-              <p class="digits__table-text">
+            <li class="table__cell">
+              <h4 class="table__heading">1000 terabytes</h4>
+              <p class="table__text">
                 A capacidade de armazenamento de informação de um humano
               </p>
             </li>
-            <li class="digits__table-cell">
-              <p class="digits__table-heading">500 trilhões</p>
-              <p class="digits__table-text">
+            <li class="table__cell">
+              <h4 class="table__heading">500 trilhões</h4>
+              <p class="table__text">
                 O número de sinapses nervosas responsáveis pelo aprendizado de
                 um adulto humano médio
               </p>
             </li>
-            <li class="digits__table-cell">
-              <p class="digits__table-heading">420 trilhões</p>
-              <p class="digits__table-text">
+            <li class="table__cell">
+              <h4 class="table__heading">420 trilhões</h4>
+              <p class="table__text">
                 O número de adultos abaixo de 25 anos sem educação suficiente
                 para encontrar empregos Banco Mundial, 2017
               </p>
             </li>
-            <li class="digits__table-cell">
-              <p class="digits__table-heading">26 anos de idade</p>
-              <p class="digits__table-text">
+            <li class="table__cell">
+              <h4 class="table__heading">26 anos de idade</h4>
+              <p class="table__text">
                 A idade com que Albert Einsten publicou o seu artigo inovador
                 sobre a relatividade especial
               </p>
             </li>
-            <li class="digits__table-cell">
-              <p class="digits__table-heading">1885</p>
-              <p class="digits__table-text">
+            <li class="table__cell">
+              <h4 class="table__heading">1885</h4>
+              <p class="table__text">
                 Desenvolvimento da curva de esquecimento
               </p>
             </li>
-            <li class="digits__table-cell">
-              <p class="digits__table-heading">1897</p>
-              <p class="digits__table-text">
+            <li class="table__cell">
+              <h4 class="table__heading">1897</h4>
+              <p class="table__text">
                 Publicação da pesquisa de Ivan Pavlov sobre condicionamento
                 clássico
               </p>
@@ -154,75 +150,85 @@
           />
         </section>
 
-        <section class="kaufman kaufman-theme-dark">
-            <h2 class="kaufman__title kaufman__title-theme-dark">Dez princípios para adquirir habilidades de forma rápida</h2>
+        <section class="kaufman">
+          <h2 class="section__title section__title_theme_dark">
+            Dez princípios para adquirir habilidades de forma rápida
+          </h2>
 
-            <p class="kaufman__subtitle kaufman__subtitle-theme-dark">por Josh Kaufman</p>
+          <p class="section__subtitle section__subtitle_theme_dark">
+            por Josh Kaufman
+          </p>
 
-          <ul class="kaufman__table kaufman__table-theme-dark">
-            <li class="kaufman__table-cell">
-              <p class="kaufman__table-heading">1</p>
-              <p class="kaufman__table-text">
+          <ul class="table table_theme_dark">
+            <li class="table__cell table__cell_theme_dark ">
+              <h4 class="table__heading table__heading_theme_dark">1</h4>
+              <p class="table__text table__text_theme_dark">
                 Escolha um projeto que traga interesse
               </p>
             </li>
-            <li class="kaufman__table-cell">
-              <p class="kaufman__table-heading">2</p>
-              <p class="kaufman__table-text">
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">2</h4>
+              <p class="table__text table__text_theme_dark">
                 Foque a sua energia em uma habilidade por vez
               </p>
             </li>
-            <li class="kaufman__table-cell">
-              <p class="kaufman__table-heading">3</p>
-              <p class="kaufman__table-text">
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">3</h4>
+              <p class="table__text table__text_theme_dark">
                 Defina o seu nível alvo de performance
               </p>
             </li>
-            <li class="kaufman__table-cell">
-              <p class="kaufman__table-heading">4</p>
-              <p class="kaufman__table-text">
-                Desconstrua a habilidade em sub-habilidades
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">4</h4>
+              <p class="table__text table__text_theme_dark">
+                Desconstrua a habilidade em sub__habilidades
               </p>
             </li>
-            <li class="kaufman__table-cell">
-              <p class="kaufman__table-heading">5</p>
-              <p class="kaufman__table-text">Obtenha ferramentas críticas</p>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">5</h4>
+              <p class="table__text table__text_theme_dark">Obtenha ferramentas críticas</p>
             </li>
-            <li class="kaufman__table-cell">
-              <p class="kaufman__table-heading">6</p>
-              <p class="kaufman__table-text">
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">6</h4>
+              <p class="table__text table__text_theme_dark">
                 Elimine as barreiras para praticar
               </p>
             </li>
-            <li class="kaufman__table-cell">
-              <p class="kaufman__table-heading">7</p>
-              <p class="kaufman__table-text">Dedique tempo para a prática</p>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">7</h4>
+              <p class="table__text table__text_theme_dark">Dedique tempo para a prática</p>
             </li>
-            <li class="kaufman__table-cell">
-              <p class="kaufman__table-heading">8</p>
-              <p class="kaufman__table-text">Crie ciclos de feedback rápidos</p>
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">8</h4>
+              <p class="table__text table__text_theme_dark">Crie ciclos de feedback rápidos</p>
             </li>
-            <li class="kaufman__table-cell">
-              <p class="kaufman__table-heading">9</p>
-              <p class="kaufman__table-text">
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">9</h4>
+              <p class="table__text table__text_theme_dark">
                 Pratique usando o relógio, em intervalos curtos de tempo
               </p>
             </li>
-            <li class="kaufman__table-cell">
-              <p class="kaufman__table-heading">10</p>
-              <p class="kaufman__table-text">
+            <li class="table__cell table__cell_theme_dark">
+              <h4 class="table__heading table__heading_theme_dark">10</h4>
+              <p class="table__text table__text_theme_dark">
                 Dê enfase a quantidade e velocidade
               </p>
             </li>
           </ul>
 
-            <img class="kaufman__triangle" src="/images/kaufman-triangle.svg" alt="" />
+          <img
+            class="kaufman__triangle"
+            src="/images/kaufman-triangle.svg"
+            alt="Um
+            grande triângulo azul, sobre o qual Josh Kaufman reclama
+            propriedade"
+          />
         </section>
       </main>
 
       <footer class="footer">
-        <section class="footer__columns">
-          <div class="footer__column-content-copyright">
+        <div class="footer__columns">
+          <div class="footer__column footer__column-content-copyright">
             <img
               src="/images/logo_place_footer.png"
               alt="Logo Practicum image"
@@ -230,34 +236,38 @@
             />
             <h2 class="footer__author">&#169; 2023 Gabriel Santillo</h2>
           </div>
-          <div class="footer__column-content-about">
+          <div class="footer__column footer__column-content-about">
             <p class="footer__column-heading">Sobre o Practicum da Yandex</p>
             <ul class="footer__list">
-              <li class="footer__column-link"><a href="#">Página inicial</a></li>
-              <li class="footer__column-link"><a href="#">Missão</a></li>
-              <li class="footer__column-link"><a href="#">Profissões</a></li>
+              <li>
+                <a href="#" class="footer__column-link">Página inicial</a>
+              </li>
+              <li><a href="#" class="footer__column-link">Missão</a></li>
+              <li><a href="#" class="footer__column-link">Profissões</a></li>
             </ul>
           </div>
-          <div class="footer__column-content-about">
+          <div class="footer__column footer__column-content-about">
             <p class="footer__column-heading">Mídia Social</p>
             <ul class="footer__list">
-              <li class="footer__column-link">
+              <li>
                 <img
                   class="footer__social-icons"
                   src="/images/facebook_white.svg"
                   alt="Ícone do Facebook"
-                /><a href="#" class="footer__column-link">Facebook</a>
+                />
+                <a href="#" class="footer__column-link">Facebook</a>
               </li>
-              <li class="footer__column-link">
+              <li>
                 <img
                   class="footer__social-icons"
                   src="/images/instagram_white.svg"
                   alt="Ícone do Instagram"
-                /><a href="#" class="footer__column-link">Instagram</a>
+                />
+                <a href="#" class="footer__column-link">Instagram</a>
               </li>
             </ul>
           </div>
-        </section>
+        </div>
       </footer>
     </div>
   </body>

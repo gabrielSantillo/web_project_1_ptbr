@@ -1,0 +1,45 @@
+.kaufman {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #1f1f1f;
+  }
+  
+  .section__title_theme_dark {
+    color: #fff;
+  }
+  
+  .section__subtitle_theme_dark {
+    color: #fff;
+  }
+  
+  .table__theme_dark {
+    margin-top: 80px;
+    row-gap: 80px;
+  }
+  
+  .table__cell_theme_dark {
+    width: 200px;
+    z-index: 1;
+  }
+  
+  .kaufman__triangle {
+    position: absolute;
+    top: 0;
+    right: -124px;
+    width: 660px;
+    height: 636px;
+  }
+  
+  
+  .table__heading_theme_dark{
+    color: #fff;
+  }
+  
+  .table__text_theme_dark {
+    color: #fff;
+  }

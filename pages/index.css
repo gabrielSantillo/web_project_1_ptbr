@@ -3,6 +3,11 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/description/description.css');
+@import url('../blocks/description/two-columns/two-columns.css');
+@import url('../blocks/description/two-columns/__brief/two-columns__brief.css');
+@import url('../blocks/description/two-columns/__main/two-columns__main-text.css');
+@import url('../blocks/description/two-columns/-paragraph/two-columns-paragraph.css');
+@import url('../blocks/description/two-columns/-span/two-columns-span-accent.css');
 @import url('../blocks/digits/digits.css');
 @import url('/blocks/feynman/feynman.css');
 @import url('../blocks/kaufman/kaufman.css');

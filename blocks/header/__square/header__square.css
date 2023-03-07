@@ -1,11 +1,4 @@
-@keyframes rotation {
-  from {
-    transform: rotate(0);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@import url('/blocks/rotation/rotation.css');
 
 .header__square {
     position: absolute;

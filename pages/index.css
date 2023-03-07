@@ -30,7 +30,7 @@
 /* DIGITS */
 @import url('../blocks/digits/digits.css');
 @import url('../blocks/digits/table/table.css');
-@import url('../blocks/digits/table/__celll/table__cell.css');
+@import url('../blocks/digits/table/__cell/table__cell.css');
 @import url('../blocks/digits/table/__heading/table__heading.css');
 @import url('../blocks/digits/table/__text/table__text.css');
 

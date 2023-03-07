@@ -1,8 +1,5 @@
 .cards__item {
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+    width: 200px;
+    list-style: none;
+    z-index: 1;
 }

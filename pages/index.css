@@ -34,6 +34,10 @@
 @import url('../blocks/digits/table/__heading/table__heading.css');
 @import url('../blocks/digits/table/__text/table__text.css');
 
+/* DIGITS */
+@import url('../blocks/techniques/techniques.css');
+@import url('../blocks/techniques/cards/cards.css');
+
 /* FEYNMAN */
 @import url('../blocks/feynman/__title/feynman__title.css');
 @import url('../blocks/feynman/__subtitle/feynman__subtitle.css');

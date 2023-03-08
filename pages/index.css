@@ -7,6 +7,8 @@
 /* SECTION TITLE and SUBTITLE - REUSABLE */
 @import url('../blocks/root/section/-title/section-title.css');
 @import url('../blocks/root/section/-subtitle/section-subtitle.css');
+@import url('../blocks/root/section/-title/_theme/section-title_theme_dark.css');
+@import url('../blocks/root/section/-subtitle/_theme/section-subtitle_theme_dark.css');
 
 /* ANIMATIONS */
 @import url('/blocks/rotation/rotation.css');

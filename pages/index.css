@@ -5,8 +5,8 @@
 @import url('../blocks/page/page.css');
 
 /* SECTION TITLE and SUBTITLE - REUSABLE */
-@import url('../blocks/root/section/__title/section__title.css');
-@import url('../blocks/root/section/__subtitle/section__subtitle.css');
+@import url('../blocks/root/section/-title/section-title.css');
+@import url('../blocks/root/section/-subtitle/section-subtitle.css');
 
 /* ANIMATIONS */
 @import url('/blocks/rotation/rotation.css');

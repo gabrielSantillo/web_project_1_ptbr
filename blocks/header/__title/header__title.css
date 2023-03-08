@@ -5,4 +5,5 @@
     font-size: 102px;
     font-weight: bold;
     justify-self: center;
+    z-index: 1;
   }

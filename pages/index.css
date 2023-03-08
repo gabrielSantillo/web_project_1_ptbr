@@ -78,6 +78,12 @@
 @import url('../blocks/kaufman/table/__heading/_theme/table__heading_theme_dark.css');
 @import url('../blocks/kaufman/table/__text/_theme/table__text_theme_dark.css');
 
+/* RESOURCES */
+@import url('../blocks/resources/resources.css');
+@import url('../blocks/resources/__logos/resources__logos.css');
+@import url('../blocks/resources/__logo/resources__logo.css');
+@import url('../blocks/resources/__logo/-zone/resources__logo-zone.css');
+
 /* FOOTER */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__columns/footer__columns.css');

@@ -8,6 +8,9 @@
 @import url('../blocks/root/section/__title/section__title.css');
 @import url('../blocks/root/section/__subtitle/section__subtitle.css');
 
+/* ANIMATIONS */
+@import url('/blocks/rotation/rotation.css');
+
 @import url('../blocks/root/root.css');
 
 /* HEADER */
